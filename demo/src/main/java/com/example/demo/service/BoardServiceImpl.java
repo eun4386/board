@@ -11,13 +11,15 @@ import com.example.demo.dto.BoardDTO;
 @Service
 public class BoardServiceImpl implements BoardService{
 	
-	@Autowired BoardDAO boarddao;
+	/*
+	 * @Autowired private BoardDAO boarddao;
+	 */
 
 	@Override
 	public List<BoardDTO> getBoardList() {
 		
-		List<BoardDTO> boardList = boarddao.getBoardList();
-		
+		// List<BoardDTO> boardList = boarddao.getBoardList();
+		List<BoardDTO> boardList = null;
 		return boardList;
 	}
 	

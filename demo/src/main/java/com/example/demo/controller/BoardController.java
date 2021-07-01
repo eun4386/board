@@ -27,7 +27,7 @@ public class BoardController {
 		// boardList = boardservice.getBoardList();
 		
  		
-		return "asdf";
+		return "redirect:/templates/board";
 	}
 	
 }
