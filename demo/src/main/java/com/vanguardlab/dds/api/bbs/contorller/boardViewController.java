@@ -11,5 +11,4 @@ public class boardViewController {
 		
 		return "list"; 
 	}
-	
 }
