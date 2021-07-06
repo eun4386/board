@@ -1,0 +1,21 @@
+# MySQL설정 및 etc
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dds
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1111
+  thymeleaf:
+      prefix: classpath:/templates/thymeleaf
+      suffix: .html
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp   
+
+# server 설정
+server:
+  port: 7070    
+  
+mybatis:  mapper-locations:  - /mapper/*.xml
+  
