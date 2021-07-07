@@ -10,4 +10,9 @@ public class boardViewController {
 	public String board() {
 		return "list"; 
 	}
+	
+	@RequestMapping("/boardDetail")
+	public String boardDetail() {
+		return "boardDetail";
+	}
 }

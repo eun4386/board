@@ -6,4 +6,10 @@
 		SELECT *
 		FROM bbs
 	</select>
+	
+	<select id="selectBoardOne">
+		SELECT *
+		  FROM bbs
+		 WHERE no = #{no} 
+	</select>
 </mapper>

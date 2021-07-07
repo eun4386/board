@@ -19,4 +19,9 @@ public class BoardDAOImpl implements BoardDAO{
 		return sqlsession.selectList("board.selectBoardList");
 	}
 
+	@Override
+	public BoardDTO getBoardDetail(int no) {
+		return sqlsession.selectOne("board.selectBoardOne", no);
+	}
+
 }
